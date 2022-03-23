@@ -1,0 +1,28 @@
+/* #7C9FA5 ; #C7DBD9 ; #FEDADE ; #F7DAD2 ; #e09895 ; #C9D2DF ; #E4E9EC fundo do site ;*/
+body { background-color: #E4E9EC;
+    font: normal 15px Verdana;
+  
+}
+
+header {
+    color: #e09895; 
+    text-align: center;
+
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 5px 5px #7c9fa54f;
+
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    
+}
+
