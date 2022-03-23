@@ -1,0 +1,53 @@
+/* #7C9FA5 ; #C7DBD9 ; #FEDADE ; #F7DAD2 ; #e09895 ; #C9D2DF ; #E4E9EC fundo do site ;*/
+body {
+    background-color: #E4E9EC;
+    font: normal 15px Verdana;
+}
+
+h1{
+    color: #e09895;
+    margin: 0 20;
+    text-align: center;
+}
+
+table {
+    border-top: 3px solid #C7DBD9;
+    border-left: 3px solid #C7DBD9;
+    border: 3px solid #C7DBD9;
+}
+
+table tr td{
+    border: 1px solid #C7DBD9;
+    
+}
+
+table tr td:last-child {
+border-right: none;
+}
+
+table tfoot tr:last-child td:last-child  {
+    border-bottom: none;
+}
+
+table thead tr td {
+    background-color: #C7DBD9;
+    color: black;
+    font-size: 18px;
+    text-align: right;
+}
+
+table tbody tr:first-child td {
+    background-color: #C7DBD9;
+    color: black;
+    font-weight: bold;
+}
+
+table tfoot tr td {
+    text-align: center;
+    font-size: 14px;
+    background-color: #C7DBD9;
+}
+
+table tbody td {
+    background-color: white;
+}
