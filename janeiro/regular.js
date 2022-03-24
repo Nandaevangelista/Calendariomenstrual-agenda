@@ -9,3 +9,4 @@ let table = document.createElement(`table`);
 let thead = document.createElement(`thead`);
 let tr = document.createElement(`tr`);
 let td = document.createElement(`td`);
+

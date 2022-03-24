@@ -14,6 +14,4 @@ function verificar() {
     } 
 res.innerHTML = `Seu ciclo é ${genero}.` 
 }
-
-
-
+var body = document.querySelector(`body`);
