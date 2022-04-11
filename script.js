@@ -9,8 +9,10 @@ function verificar() {
     if (fciclo[0].checked){
         genero = `Regular` 
         
+        
     } else if(fciclo[1].checked) {
         genero = `Irregular`
+
     } 
 res.innerHTML = `Seu ciclo é ${genero}.` 
 }
