@@ -11,22 +11,26 @@
     <header>
         <h1>Calculadora on-line</h1>
     </header>
-    <section>
-        <div id="usuario">
-            Nome do usuário </div>
-       <div id="ciclos">
-           <p>Sua menstruação é: </p>
-        <input type="radio" name="ciclo" id="regular" checked>
-        <label for="regular">Regular</label>
-        <input type="radio" name="ciclo" id="irregular">
-        <label for="irregular">Irregular</label>
-       </p>
-       <p>
-           <input type="button" value="Próximo" onclick="verificar()">
-       </p>
-            <div id="res"></div>
-            <div id="cregular"></div>
-    </section>
+        <main>
+            <form>
+                    <div id="usuario"> Nome do usuário </div>
+                    <div id="ciclos">
+
+                    <label for="seuciclo">Seu ciclo é:</label>    
+                    <input type="radio" name="ciclo" id="regular" checked>
+                    <label for="regular">Regular</label>
+                    <input type="radio" name="ciclo" id="irregular">
+                    <label for="irregular">Irregular</label>
+
+                    <label for="datadaultima" class="fmenstruacao">Qual a data da sua última menstruação?</label>
+                    <input type="date" class="data-menstruacao">
+                
+                    <input type="submit" class="caixaenviar" value="Próximo" onclick="verificar()" class="enviar">
+                
+                        <div id="res"></div>
+                        <div id="cregular"></div>
+            </form>    
+        </main>
     <footer>
         <p>Fernanda Evangelista</p>
     </footer>

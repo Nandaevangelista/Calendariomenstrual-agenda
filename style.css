@@ -1,4 +1,4 @@
-/* #7C9FA5 ; #C7DBD9 ; #FEDADE ; #F7DAD2 ; #e09895 ; #C9D2DF ; #E4E9EC fundo do site ;*/
+/* Verde escuro #7C9FA5 ; Verde claro #C7DBD9 ; Rosa muito claro #FEDADE ; #F7DAD2 ; #e09895 ; #C9D2DF ; #E4E9EC fundo do site ;*/
 body { background-color: #E4E9EC;
     font: normal 15px Verdana;
   
@@ -10,19 +10,60 @@ header {
 
 }
 
-section {
+#usuario {
+    margin: 10px 0 20px 0;
+    color: black;
+}
+
+form {
+    margin: 20px 0;
+    width: 940px;
+    padding: 5% 10%;  
+}
+
+.fmenstruacao {
+    display: block;
+    margin: 20px 0 20px 0px;
+}
+
+.data-menstruacao {
+    display: block;
+    margin: 20px 0 20px 0px;
+}
+
+main {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 3px 3px 5px 5px #7c9fa54f;
+    box-shadow: 3px 3px 5px 5px #7e7f8042;
 
 }
+
+.data-menstruacao {
+    display: block;
+    font-size: 18px;
+    margin: 20px 5px;
+    width: 35%;
+}
+
+.caixaenviar {
+    width: 37%;
+    padding: 15px 0px;
+    font-size: 20px;
+    background-color: #7C9FA5;
+    color:white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 
 footer {
     text-align: center;
     font-style: italic;
-    
 }
+
 
